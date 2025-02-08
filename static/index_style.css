@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+body{
+    font-family: 'Rubik', sans-serif;
+    font-size: large;
+    background-image: url('ship.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-color: steelblue;
+}
+    
+
+.form-data{
+    background-color: rgba(255, 255, 255, 0.801);
+    border: solid black 2px;
+    margin-left: 10em;
+    margin-right: 10em;
+    margin-top: 40em;
+    padding: 1em;
+    height: 60em;
+    padding-left: 10em;
+}
+
+label{
+    display: inline-block;
+    width: 200px;
+}
+
+.input-field{
+    margin: 1em;
+}
+
+.data-field{
+    margin-left: 10px;
+}
+.submit-button{
+    margin-left: 20%;
+}
+
+h3{
+    margin-left: 10em;
+}
+.form-data .bigger{
+    font-size: 70px;
+    font-weight: bold;
+}
+
+input[type=number], input[type=submit] {
+    width: 50%;
+  }
